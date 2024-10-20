@@ -8,4 +8,6 @@ services:
     environment:
       - FLASK_ENV=development
     volumes:
-      - ./src:/app  
+      - ./src:/app/src
+    restart: always
+ 
