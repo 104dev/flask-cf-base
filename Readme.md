@@ -18,3 +18,9 @@
         ├── __init__.py
         └── main.py
 ```
+
+## requirement.txtの作成
+
+```
+poetry export -f requirements.txt --output requirements.txt --without-hashes
+```
